@@ -1,0 +1,10 @@
+{ 
+  "name": "portfolio_monitoring_app",
+  "version": "1.0.0",
+  "description": "A portfolio monitoring application using CoinDCX API.",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.2"
+  }
+}

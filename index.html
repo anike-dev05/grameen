@@ -1,0 +1,34 @@
+# Portfolio Monitoring Application
+
+## Project Structure
+- `index.html`: Main HTML file for the application.
+- `app.js`: JavaScript file for handling API requests and UI updates.
+- `style.css`: CSS file for styling the application.
+- `package.json`: Dependency management file.
+
+## Dependencies
+- `axios`: For making HTTP requests to the CoinDCX API.
+- `bootstrap`: For UI components.
+
+## index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Portfolio Monitoring</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Portfolio Monitoring Application</h1>
+        <div id="portfolio"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+```
